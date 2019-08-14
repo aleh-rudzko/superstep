@@ -1,2 +1,6 @@
 .idea/*
 .DS_Store
+Pods
+Podfile.lock
+Pedometer.xcworkspace/*
+Pedometer.xcodeproj/*

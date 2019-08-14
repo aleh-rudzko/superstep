@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7936E78622AD16B10054119F /* MyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7936E78522AD16B10054119F /* MyProgressView.swift */; };
+		79CFD9FF22EF88CD0077B81E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CFD9FE22EF88CD0077B81E /* Media.xcassets */; };
+		79CFDA0122EF8C4E0077B81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CFDA0022EF8C4E0077B81E /* Assets.xcassets */; };
 		B445E13FD5F57FD98F58059C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B445EFFC83F4C00FFE297DEE /* LaunchScreen.storyboard */; };
 		B445E39595BC87A8BD1ED04B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445EAD16DF479DBABDEEFDA /* ViewController.swift */; };
 		B445EA24F5AC2FA4B408284E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B445EA0D01366C92C93AB459 /* Main.storyboard */; };
-		B445EE9574104E706CACACEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B445E421F21192B45C6C070A /* Assets.xcassets */; };
 		B445EFABAA41AD4D36CB8153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E0F478CF14D23745A127 /* AppDelegate.swift */; };
+		ED3FEFA9848F45F1BB19B2DD /* Pods_Pedometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E439A6D32C80073315DF92AE /* Pods_Pedometer.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21B5ABA741BA425CAFD34EEC /* Pods-Pedometer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedometer.release.xcconfig"; path = "Target Support Files/Pods-Pedometer/Pods-Pedometer.release.xcconfig"; sourceTree = "<group>"; };
+		53A1ABCF051454FBE9D2CAD9 /* Pods-CoreMotionPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMotionPost.debug.xcconfig"; path = "Target Support Files/Pods-CoreMotionPost/Pods-CoreMotionPost.debug.xcconfig"; sourceTree = "<group>"; };
+		7936E78522AD16B10054119F /* MyProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgressView.swift; sourceTree = "<group>"; };
+		79CFD9FE22EF88CD0077B81E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		79CFDA0022EF8C4E0077B81E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8800D5F3FAF2757F12E177E4 /* Pods-Pedometer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedometer.debug.xcconfig"; path = "Target Support Files/Pods-Pedometer/Pods-Pedometer.debug.xcconfig"; sourceTree = "<group>"; };
 		B445E0F478CF14D23745A127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B445E1D5FC8970F5174D2FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B445E1F619176D0759D1A16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B445E1F85A708A226CB2BACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B445E421F21192B45C6C070A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B445E46293149715037201A3 /* CoreMotionPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B445E46293149715037201A3 /* Pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B445EAD16DF479DBABDEEFDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2A4222F948287544366E53E /* Pods-CoreMotionPost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMotionPost.release.xcconfig"; path = "Target Support Files/Pods-CoreMotionPost/Pods-CoreMotionPost.release.xcconfig"; sourceTree = "<group>"; };
+		E439A6D32C80073315DF92AE /* Pods_Pedometer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pedometer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,16 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3FEFA9848F45F1BB19B2DD /* Pods_Pedometer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB2D690B15E800D96E1B89DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53A1ABCF051454FBE9D2CAD9 /* Pods-CoreMotionPost.debug.xcconfig */,
+				E2A4222F948287544366E53E /* Pods-CoreMotionPost.release.xcconfig */,
+				8800D5F3FAF2757F12E177E4 /* Pods-Pedometer.debug.xcconfig */,
+				21B5ABA741BA425CAFD34EEC /* Pods-Pedometer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B445E29D78FFA66496D0D366 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B445E46293149715037201A3 /* CoreMotionPost.app */,
+				B445E46293149715037201A3 /* Pedometer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,41 +69,56 @@
 			isa = PBXGroup;
 			children = (
 				B445E29D78FFA66496D0D366 /* Products */,
-				B445EB5ED58CFDC35D8C3D27 /* CoreMotionPost */,
+				B445EB5ED58CFDC35D8C3D27 /* Pedometer */,
+				AB2D690B15E800D96E1B89DB /* Pods */,
+				E51DFC13A2AAB24FB35A9DB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
-		B445EB5ED58CFDC35D8C3D27 /* CoreMotionPost */ = {
+		B445EB5ED58CFDC35D8C3D27 /* Pedometer */ = {
 			isa = PBXGroup;
 			children = (
+				79CFDA0022EF8C4E0077B81E /* Assets.xcassets */,
 				B445E1F619176D0759D1A16A /* Info.plist */,
-				B445E421F21192B45C6C070A /* Assets.xcassets */,
 				B445EFFC83F4C00FFE297DEE /* LaunchScreen.storyboard */,
 				B445E0F478CF14D23745A127 /* AppDelegate.swift */,
 				B445EA0D01366C92C93AB459 /* Main.storyboard */,
 				B445EAD16DF479DBABDEEFDA /* ViewController.swift */,
+				7936E78522AD16B10054119F /* MyProgressView.swift */,
+				79CFD9FE22EF88CD0077B81E /* Media.xcassets */,
 			);
-			path = CoreMotionPost;
+			path = Pedometer;
+			sourceTree = "<group>";
+		};
+		E51DFC13A2AAB24FB35A9DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E439A6D32C80073315DF92AE /* Pods_Pedometer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B445EEF2C4C450C6F8AB82D4 /* CoreMotionPost */ = {
+		B445EEF2C4C450C6F8AB82D4 /* Pedometer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B445EEE5CD756E3300C14BC0 /* Build configuration list for PBXNativeTarget "CoreMotionPost" */;
+			buildConfigurationList = B445EEE5CD756E3300C14BC0 /* Build configuration list for PBXNativeTarget "Pedometer" */;
 			buildPhases = (
+				5B273F48EC7689CD80FCE88A /* [CP] Check Pods Manifest.lock */,
 				B445E4C451A7171333293DCA /* Sources */,
 				B445EFCC1240094B8C97EE34 /* Frameworks */,
 				B445E3E958931DCCAD3F2F28 /* Resources */,
+				C58253C9C8DB7EF60A13B05C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CoreMotionPost;
+			name = Pedometer;
 			productName = CoreMotionPost;
-			productReference = B445E46293149715037201A3 /* CoreMotionPost.app */;
+			productReference = B445E46293149715037201A3 /* Pedometer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -90,26 +127,30 @@
 		B445E4FEF6171DFCCCC4EF10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = kamwysoc;
 				TargetAttributes = {
 					B445EEF2C4C450C6F8AB82D4 = {
-						DevelopmentTeam = CBE57AW4A4;
+						DevelopmentTeam = SFMMFZA78M;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = B445E7F3A507E636BE3EA0A6 /* Build configuration list for PBXProject "CoreMotionPost" */;
+			buildConfigurationList = B445E7F3A507E636BE3EA0A6 /* Build configuration list for PBXProject "Pedometer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = B445E53632959D52D7C5E164;
 			productRefGroup = B445E29D78FFA66496D0D366 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B445EEF2C4C450C6F8AB82D4 /* CoreMotionPost */,
+				B445EEF2C4C450C6F8AB82D4 /* Pedometer */,
 			);
 		};
 /* End PBXProject section */
@@ -119,13 +160,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B445EE9574104E706CACACEB /* Assets.xcassets in Resources */,
 				B445E13FD5F57FD98F58059C /* LaunchScreen.storyboard in Resources */,
+				79CFD9FF22EF88CD0077B81E /* Media.xcassets in Resources */,
+				79CFDA0122EF8C4E0077B81E /* Assets.xcassets in Resources */,
 				B445EA24F5AC2FA4B408284E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B273F48EC7689CD80FCE88A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pedometer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58253C9C8DB7EF60A13B05C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pedometer/Pods-Pedometer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pedometer/Pods-Pedometer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B445E4C451A7171333293DCA /* Sources */ = {
@@ -133,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B445EFABAA41AD4D36CB8153 /* AppDelegate.swift in Sources */,
+				7936E78622AD16B10054119F /* MyProgressView.swift in Sources */,
 				B445E39595BC87A8BD1ED04B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,14 +247,34 @@
 /* Begin XCBuildConfiguration section */
 		B445E558353B51C1815FBE8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8800D5F3FAF2757F12E177E4 /* Pods-Pedometer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CBE57AW4A4;
-				INFOPLIST_FILE = CoreMotionPost/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBCircularProgressBar\"",
+				);
+				INFOPLIST_FILE = Pedometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kamwysoc.CoreMotionPost;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MBCircularProgressBar\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = unsav.Pedometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -177,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -187,6 +294,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -194,6 +302,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -202,7 +311,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: oleg.unsav@gmail.com (VS7HY9TXKS)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -234,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -244,6 +354,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -251,6 +362,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -259,7 +371,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: oleg.unsav@gmail.com (VS7HY9TXKS)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -282,14 +394,18 @@
 		};
 		B445EA6DB7C9BA62B31F2E86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B5ABA741BA425CAFD34EEC /* Pods-Pedometer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CBE57AW4A4;
-				INFOPLIST_FILE = CoreMotionPost/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Pedometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kamwysoc.CoreMotionPost;
+				PRODUCT_BUNDLE_IDENTIFIER = unsav.Pedometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -297,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B445E7F3A507E636BE3EA0A6 /* Build configuration list for PBXProject "CoreMotionPost" */ = {
+		B445E7F3A507E636BE3EA0A6 /* Build configuration list for PBXProject "Pedometer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B445E6FD0C2CE7042B0B0F26 /* Debug */,
@@ -306,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B445EEE5CD756E3300C14BC0 /* Build configuration list for PBXNativeTarget "CoreMotionPost" */ = {
+		B445EEE5CD756E3300C14BC0 /* Build configuration list for PBXNativeTarget "Pedometer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B445E558353B51C1815FBE8D /* Debug */,
